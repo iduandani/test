@@ -62,7 +62,7 @@ export default {
       mounted(){
           this.getEmotion(this.src)
       },
-  methods:{
+  methods:{ 
     getEmotiontest(){
       let url = 'http://duandan.top:8081/file/1512447829673_WechatIMG103.jpeg'
       
