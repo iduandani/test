@@ -1,6 +1,6 @@
 <template>
   <div class="Emotion">
-    <div class="title">情绪1312</div>
+    <div class="title">情绪1355512</div>
     <form id="uploadForm" method="post" enctype="multipart/form-data">
 
             <div class="img-container" id='pic_c'>
