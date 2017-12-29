@@ -36,7 +36,7 @@ export default {
   data () {
     return {
       msg: '',
-      src:'',
+      src:'https://duandan.top/em/file/1514535206681_img.jpeg',
       dataList:[],
       height:0,
       opacity:0,
@@ -58,6 +58,9 @@ export default {
           let result  = parseInt(val*100);
           return val.toFixed(4)
         }
+      },
+      mounted(){
+          this.getEmotion(this.src)
       },
   methods:{
     getEmotiontest(){
